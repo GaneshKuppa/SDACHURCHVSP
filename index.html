@@ -1,0 +1,468 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SDA CENTRAL CHURCH VISHAKHAPATNAM</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+
+
+    <style>
+        
+        .logo {
+            max-width: 100px;
+            margin-right: 10px;
+        }
+
+        .primary-text {
+            font-size: 18px;
+        }
+
+        .secondary-text {
+            font-size: 14px;
+        }
+
+        .navbar-brand {
+            display: flex;
+            align-items: center;
+        }
+
+        .navbar-toggler {
+            color: #fff;
+            border-color: #fff;
+        }
+
+        .navigation-links a {
+            color: #fff;
+            text-decoration: none;
+            margin-left: 20px;
+        }
+
+        @media (max-width: 768px) {
+            .secondary-text {
+                font-size: 0.5em;
+                white-space: normal;
+               margin-top: 5px;
+            }
+            .primary-text {
+            font-size: 0.7em;
+            white-space: normal;
+            margin-top: 5px;
+
+        }
+        }
+
+        .container1 {
+            width: 90%;
+            margin: 0 auto;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+
+        .box {
+            position: relative;
+            margin: 10px;
+            width: calc(20% - 20px); /* 20% width with margin on both sides */
+            overflow: hidden;
+        }
+
+        .image {
+            width: 100%;
+            height: auto;
+        }
+
+        .text-overlay {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            background-color: rgba(0, 0, 0, 0.5);
+            color: white;
+            padding: 10px;
+            text-align: center;
+        }
+
+        @media screen and (max-width: 768px) {
+            .box {
+                width: calc(33.33% - 20px); /* 33.33% width with margin on both sides */
+            }
+        }
+
+        @media screen and (max-width: 480px) {
+            .box {
+                width: calc(50% - 20px); /* 50% width with margin on both sides */
+            }
+        }
+        .container {
+    display: flex;
+    flex-direction: column;
+  }
+  .left,
+  .right {
+    padding: 20px;
+    background-color: #f0f0f0;
+    margin-bottom: 20px;
+  }
+  .right {
+    background-color: #e0e0e0;
+  }
+  iframe {
+    max-width: 100%;
+  }
+  @media (min-width: 768px) {
+    .container {
+      flex-direction: row;
+    }
+    .left,
+    .right {
+      flex: 1;
+      margin: 0;
+    }
+  }
+  
+  ul {
+    margin: 0px;
+    padding: 0px;
+}
+.footer-section {
+  background: #151414;
+  position: relative;
+}
+.footer-cta {
+  border-bottom: 1px solid #373636;
+}
+.single-cta i {
+  color: #ff5e14;
+  font-size: 30px;
+  float: left;
+  margin-top: 8px;
+}
+.cta-text {
+  padding-left: 15px;
+  display: inline-block;
+}
+.cta-text h4 {
+  color: #fff;
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 2px;
+}
+.cta-text span {
+  color: #757575;
+  font-size: 15px;
+}
+.footer-content {
+  position: relative;
+  z-index: 2;
+}
+.footer-pattern img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 330px;
+  background-size: cover;
+  background-position: 100% 100%;
+}
+.footer-logo {
+  margin-bottom: 30px;
+}
+.footer-logo img {
+    max-width: 200px;
+}
+.footer-text p {
+  margin-bottom: 14px;
+  font-size: 14px;
+      color: #7e7e7e;
+  line-height: 28px;
+}
+.footer-social-icon span {
+  color: #fff;
+  display: block;
+  font-size: 20px;
+  font-weight: 700;
+  font-family: 'Poppins', sans-serif;
+  margin-bottom: 20px;
+}
+.footer-social-icon a {
+  color: #fff;
+  font-size: 16px;
+  margin-right: 15px;
+}
+.footer-social-icon i {
+  height: 40px;
+  width: 40px;
+  text-align: center;
+  line-height: 38px;
+  border-radius: 50%;
+}
+.facebook-bg{
+  background: #3B5998;
+}
+.twitter-bg{
+  background: #55ACEE;
+}
+.google-bg{
+  background: #DD4B39;
+}
+.footer-widget-heading h3 {
+  color: #fff;
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 40px;
+  position: relative;
+}
+.footer-widget-heading h3::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -15px;
+  height: 2px;
+  width: 50px;
+  background: #ff5e14;
+}
+.footer-widget ul li {
+  display: inline-block;
+  float: left;
+  width: 50%;
+  margin-bottom: 12px;
+}
+.footer-widget ul li a:hover{
+  color: #ff5e14;
+}
+.footer-widget ul li a {
+  color: #878787;
+  text-transform: capitalize;
+}
+.subscribe-form {
+  position: relative;
+  overflow: hidden;
+}
+.subscribe-form input {
+  width: 100%;
+  padding: 14px 28px;
+  background: #2E2E2E;
+  border: 1px solid #2E2E2E;
+  color: #fff;
+}
+.subscribe-form button {
+    position: absolute;
+    right: 0;
+    background: #ff5e14;
+    padding: 13px 20px;
+    border: 1px solid #ff5e14;
+    top: 0;
+}
+.subscribe-form button i {
+  color: #fff;
+  font-size: 22px;
+  transform: rotate(-6deg);
+}
+.copyright-area{
+  background: #202020;
+  padding: 25px 0;
+}
+.copyright-text p {
+  margin: 0;
+  font-size: 14px;
+  color: #878787;
+}
+.copyright-text p a{
+  color: #ff5e14;
+}
+.footer-menu li {
+  display: inline-block;
+  margin-left: 20px;
+}
+.footer-menu li:hover a{
+  color: #ff5e14;
+}
+.footer-menu li a {
+  font-size: 14px;
+  color: #878787;
+}
+
+    </style>
+</head>
+<body>
+
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container">
+        <a class="navbar-brand" href="#">
+            <img src="./img/logo.png" alt="Logo" class="logo">
+            <div>
+                <div class="primary-text">SDA CENTRAL CHURCH VISHAKHAPATNAM</div>
+                <div class="secondary-text">Families rooted in faith, growing in grace, and serving with love</div>
+            </div>
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="./Alterpage.html">Welcome to the Church Website!</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="./Alterpage.html">About Us</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="./Alterpage.html">Ministries</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="./Alterpage.html">School</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="./Alterpage.html">Resources</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="./Alterpage.html">Online Giving</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+<div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel" data-bs-interval="3000"> <!-- Set data-bs-interval to 3000 milliseconds (3 seconds) for example -->
+    <div class="carousel-inner">
+        <div class="carousel-item active">
+            <img src="./img/1.jpg" class="d-block w-75 mx-auto" alt="...">
+        </div>
+        <div class="carousel-item">
+            <img src="./img/2.jpg" class="d-block w-75 mx-auto" alt="...">
+        </div>
+        <div class="carousel-item">
+            <img src="./img/3.jpg" class="d-block w-75 mx-auto" alt="...">
+        </div>
+        <div class="carousel-item">
+            <img src="./img/5.jpg" class="d-block w-75 mx-auto" alt="...">
+        </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+    </button>
+</div>
+<div class="container1">
+    <div class="box">
+        <img src="./img/up.jpg" alt="Image 1" class="image">
+        <div class="text-overlay">Upcoming Events</div>
+    </div>
+    <div class="box">
+        <img src="./img/sermons-ad.jpg" alt="Image 2" class="image">
+        <div class="text-overlay">Sermons</div>
+    </div>
+    <div class="box">
+        <img src="./img/ministries.jpeg" alt="Image 3" class="image">
+        <div class="text-overlay">Ministries</div>
+    </div>
+    <div class="box">
+        <img src="./img/prayer.jpg" alt="Image 4" class="image">
+        <div class="text-overlay">Prayer</div>
+    </div>
+    <div class="box">
+        <img src="./img/fb.jpg" alt="Image 5" class="image">
+        <div class="text-overlay">Facebook</div>
+    </div>
+</div>
+<div class="container">
+    <div class="left">
+      <h2>WELCOME TO THE SDA CENTRAL CHURCH VISHAKHAPATNAM WEBSITE!</h2>
+      <p>
+        SDA Vizag Central Church extends a heartfelt welcome to all seeking a warm and nurturing Christian community. Rooted in the love of Christ, we are dedicated to the diligent study of God's Word, earnestly seeking His will as we journey towards the blessed promise of Christ's imminent return.
+      </p>
+      <p>
+        Our mission is to exalt Jesus Christ as the sovereign Lord and compassionate Savior, endeavoring to guide others in their discovery of His eternal truths and boundless love for humanity.
+      </p>
+      <p>
+        We invite you to join us in fellowship as we uplift His name and share in the joy of His everlasting grace.
+      </p>
+      <p>
+        Stay up to date with us on social media by clicking <a href="#">here</a>.
+      </p>
+    </div>
+    <div class="right">
+      <div class="service-times">
+        <h2>SATURDAY SERVICE TIMES:</h2>
+        <p>Sabbath School: 9:30 am - Live Streaming</p>
+        <p>Worship Service: 10:45 am - Live Streaming</p>
+      </div>
+      <div class="bible-study">
+        <h2>AY - Adventist Youth program</h2>
+        <p>Wednesday at 6:00 p.m.</p>
+      </div>
+      <div class="location-map">
+        <h2>Location</h2>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3800.6697152983284!2d83.3020986!3d17.7130561!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a39431a48801905%3A0x16d928263c952ecf!2sSeventh%20Day%20Adventist%20Church!5e0!3m2!1sen!2sin!4v1709895696302!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </div>
+    </div>
+  </div>
+  <footer class="footer-section">
+    <div class="container">
+        <div class="footer-cta pt-5 pb-5">
+            <div class="row">
+                <div class="col-xl-4 col-md-4 mb-30">
+                    <div class="single-cta">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <div class="cta-text">
+                            <h4>Address</h4>
+                            <span>28-5-5, Yellamathota Road, Baba Gardens, Jagadamba Theatre Backside, Opposite Yellamagudi, Jagadamba Junction, Visakhapatnam, Andhra Pradesh 530020</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-4 col-md-4 mb-30">
+                    <div class="single-cta">
+                        <i class="fas fa-phone"></i>
+                        <div class="cta-text">
+                            <h4>Call us</h4>
+                            <span>089166214150</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-4 col-md-4 mb-30">
+                    <div class="single-cta">
+                        <i class="far fa-envelope-open"></i>
+                        <div class="cta-text">
+                            <h4>Mail us</h4>
+                            <span>mail@info.com</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-content pt-5 pb-5">
+            <div class="row">
+                <div class="col-xl-4 col-lg-4 mb-50">
+                    <div class="footer-widget">
+                        <div class="footer-logo">
+                            <a href="index.html"><img src="./img/logo.png" class="img-fluid" alt="logo"></a>
+                        </div>
+                        <div class="footer-text">
+                            <p>Families rooted in faith, growing in grace, and serving with love</p>
+                        </div>
+                        <!--
+                        <div class="footer-social-icon">
+                            <span>Follow us</span>
+                            <i class="fa-brands fa-youtube"></i>
+                            <a href="#"><i class="fa fa-twitter twitter-bg"></i></a>
+                            <a href="#"><i class="fa fa-google-plus-g google-bg"></i></a>
+                            <a href="#"><i class="fa fa-youtube youtube-bg"></i></a>
+                            <a href="#"><i class="fa fa-facebook facebook-bg"></i></a>
+                        </div>-->
+                        
+                    </div>
+                </div>
+                
+        </div>
+    </div>
+</footer>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js"></script>
+
+</body>
+</html>
